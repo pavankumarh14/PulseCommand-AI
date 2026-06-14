@@ -1,0 +1,1501 @@
+schedule_id,doctor_id,doctor_name,specialization,ward,date,shift,shift_start,shift_end,hours_worked,overtime_hours,patients_seen,on_call,leave
+SCH00001,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-04,Night,22:00,06:00,8.4,0.4,11,False,False
+SCH00002,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-04,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00003,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-04,Evening,14:00,22:00,8.2,0.2,15,True,False
+SCH00004,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-04,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00005,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-04,Night,22:00,06:00,8.2,0.2,10,True,False
+SCH00006,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-04,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00007,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-04,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00008,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-04,Morning,06:00,14:00,9.0,1.0,12,False,False
+SCH00009,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-04,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00010,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-04,Night,22:00,06:00,8.0,0.0,10,False,True
+SCH00011,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-04,Morning,06:00,14:00,8.6,0.6,10,False,False
+SCH00012,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-04,Night,22:00,06:00,8.3,0.3,8,True,False
+SCH00013,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-04,Night,22:00,06:00,8.0,0.0,6,False,False
+SCH00014,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-04,Morning,06:00,14:00,9.3,1.3,11,True,False
+SCH00015,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-04,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00016,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-04,Evening,14:00,22:00,8.0,0.0,6,False,False
+SCH00017,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-04,Morning,06:00,14:00,8.3,0.3,13,False,False
+SCH00018,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-04,Evening,14:00,22:00,8.9,0.9,12,False,False
+SCH00019,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-04,Evening,14:00,22:00,8.7,0.7,10,False,True
+SCH00020,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-04,Evening,14:00,22:00,8.0,0.0,7,False,True
+SCH00021,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-04,Morning,06:00,14:00,8.0,0.0,6,True,False
+SCH00022,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-04,Morning,06:00,14:00,8.1,0.1,11,False,False
+SCH00023,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-04,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00024,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-04,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00025,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-04,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH00026,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-04,Evening,14:00,22:00,9.3,1.3,10,False,False
+SCH00027,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-04,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00028,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-04,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00029,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-04,Morning,06:00,14:00,8.6,0.6,13,False,True
+SCH00030,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-04,Evening,14:00,22:00,8.0,0.0,19,True,False
+SCH00031,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-04,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00032,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-04,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00033,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-04,Morning,06:00,14:00,9.3,1.3,9,False,False
+SCH00034,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-04,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00035,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-04,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH00036,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-04,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00037,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-04,Night,22:00,06:00,8.1,0.1,9,False,False
+SCH00038,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-04,Evening,14:00,22:00,8.1,0.1,12,False,False
+SCH00039,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-04,Night,22:00,06:00,8.6,0.6,7,False,False
+SCH00040,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-04,Evening,14:00,22:00,8.6,0.6,12,False,False
+SCH00041,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-04,Morning,06:00,14:00,8.2,0.2,6,False,False
+SCH00042,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-04,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00043,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-04,Morning,06:00,14:00,8.1,0.1,13,False,False
+SCH00044,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-04,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00045,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-04,Night,22:00,06:00,8.9,0.9,7,False,False
+SCH00046,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-04,Night,22:00,06:00,8.9,0.9,11,False,False
+SCH00047,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-04,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00048,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-04,Evening,14:00,22:00,8.7,0.7,9,False,False
+SCH00049,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-04,Night,22:00,06:00,8.5,0.5,9,False,False
+SCH00050,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-04,Morning,06:00,14:00,8.0,0.0,10,True,False
+SCH00051,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-05,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH00052,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-05,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00053,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-05,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00054,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-05,Evening,14:00,22:00,8.5,0.5,11,False,False
+SCH00055,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-05,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00056,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-05,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00057,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-05,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00058,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-05,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH00059,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-05,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00060,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-05,Evening,14:00,22:00,8.9,0.9,11,False,False
+SCH00061,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-05,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00062,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-05,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00063,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-05,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00064,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-05,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00065,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-05,Evening,14:00,22:00,9.4,1.4,7,False,False
+SCH00066,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-05,Night,22:00,06:00,8.0,0.0,12,False,True
+SCH00067,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-05,Night,22:00,06:00,8.1,0.1,10,False,False
+SCH00068,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-05,Evening,14:00,22:00,8.0,0.0,17,False,False
+SCH00069,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-05,Morning,06:00,14:00,9.1,1.1,14,False,False
+SCH00070,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-05,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00071,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-05,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00072,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-05,Night,22:00,06:00,8.5,0.5,11,False,False
+SCH00073,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-05,Morning,06:00,14:00,8.0,0.0,15,True,False
+SCH00074,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-05,Evening,14:00,22:00,8.0,0.0,6,False,False
+SCH00075,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-05,Morning,06:00,14:00,8.2,0.2,12,False,False
+SCH00076,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-05,Morning,06:00,14:00,8.1,0.1,11,False,False
+SCH00077,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-05,Night,22:00,06:00,8.3,0.3,16,False,False
+SCH00078,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-05,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00079,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-05,Morning,06:00,14:00,9.3,1.3,11,False,False
+SCH00080,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-05,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00081,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-05,Night,22:00,06:00,8.9,0.9,10,False,False
+SCH00082,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-05,Evening,14:00,22:00,8.4,0.4,17,False,False
+SCH00083,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-05,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00084,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-05,Night,22:00,06:00,8.6,0.6,4,False,False
+SCH00085,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-05,Morning,06:00,14:00,8.3,0.3,12,False,False
+SCH00086,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-05,Morning,06:00,14:00,8.0,0.0,9,False,True
+SCH00087,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-05,Morning,06:00,14:00,8.8,0.8,10,False,False
+SCH00088,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-05,Night,22:00,06:00,9.7,1.7,10,True,False
+SCH00089,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-05,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00090,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-05,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00091,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-05,Night,22:00,06:00,9.3,1.3,5,False,False
+SCH00092,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-05,Morning,06:00,14:00,8.4,0.4,14,False,False
+SCH00093,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-05,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00094,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-05,Evening,14:00,22:00,8.7,0.7,10,False,False
+SCH00095,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-05,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00096,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-05,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00097,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-05,Night,22:00,06:00,8.6,0.6,12,False,False
+SCH00098,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-05,Morning,06:00,14:00,8.2,0.2,13,False,False
+SCH00099,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-05,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH00100,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-05,Morning,06:00,14:00,8.5,0.5,13,False,False
+SCH00101,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-06,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00102,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-06,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00103,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-06,Night,22:00,06:00,8.0,0.0,14,True,False
+SCH00104,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-06,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00105,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-06,Morning,06:00,14:00,8.0,0.0,15,False,True
+SCH00106,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-06,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00107,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-06,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00108,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-06,Morning,06:00,14:00,8.2,0.2,15,False,False
+SCH00109,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-06,Evening,14:00,22:00,10.0,2.0,11,False,False
+SCH00110,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-06,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00111,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-06,Morning,06:00,14:00,8.8,0.8,8,False,False
+SCH00112,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-06,Night,22:00,06:00,9.3,1.3,17,True,False
+SCH00113,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-06,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH00114,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-06,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00115,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-06,Evening,14:00,22:00,8.4,0.4,18,False,False
+SCH00116,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-06,Morning,06:00,14:00,9.1,1.1,10,False,False
+SCH00117,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-06,Morning,06:00,14:00,8.3,0.3,9,False,False
+SCH00118,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-06,Morning,06:00,14:00,8.5,0.5,11,False,False
+SCH00119,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-06,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00120,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-06,Evening,14:00,22:00,8.8,0.8,12,False,False
+SCH00121,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-06,Night,22:00,06:00,8.6,0.6,11,True,False
+SCH00122,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-06,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00123,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-06,Morning,06:00,14:00,8.6,0.6,10,False,False
+SCH00124,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-06,Evening,14:00,22:00,8.6,0.6,12,False,False
+SCH00125,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-06,Morning,06:00,14:00,8.6,0.6,15,False,False
+SCH00126,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-06,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00127,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-06,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00128,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-06,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00129,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-06,Night,22:00,06:00,8.0,0.0,9,True,True
+SCH00130,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-06,Morning,06:00,14:00,8.2,0.2,9,False,False
+SCH00131,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-06,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH00132,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-06,Evening,14:00,22:00,8.8,0.8,17,False,True
+SCH00133,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-06,Morning,06:00,14:00,8.3,0.3,16,False,False
+SCH00134,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-06,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00135,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-06,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00136,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-06,Night,22:00,06:00,9.2,1.2,15,False,False
+SCH00137,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-06,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00138,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-06,Night,22:00,06:00,8.3,0.3,9,False,False
+SCH00139,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-06,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00140,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-06,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00141,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-06,Night,22:00,06:00,8.4,0.4,12,False,False
+SCH00142,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-06,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00143,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-06,Evening,14:00,22:00,8.8,0.8,11,True,False
+SCH00144,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-06,Morning,06:00,14:00,8.2,0.2,13,False,False
+SCH00145,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-06,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00146,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-06,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00147,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-06,Morning,06:00,14:00,9.4,1.4,13,False,False
+SCH00148,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-06,Night,22:00,06:00,8.1,0.1,15,False,False
+SCH00149,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-06,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00150,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-06,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00151,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-07,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00152,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-07,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00153,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-07,Morning,06:00,14:00,8.4,0.4,9,False,False
+SCH00154,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-07,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00155,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-07,Morning,06:00,14:00,8.8,0.8,12,False,False
+SCH00156,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-07,Morning,06:00,14:00,8.3,0.3,9,False,False
+SCH00157,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-07,Morning,06:00,14:00,8.7,0.7,9,False,False
+SCH00158,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-07,Night,22:00,06:00,8.2,0.2,12,False,False
+SCH00159,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-07,Evening,14:00,22:00,8.6,0.6,9,False,False
+SCH00160,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-07,Evening,14:00,22:00,8.0,0.0,18,False,False
+SCH00161,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-07,Night,22:00,06:00,8.2,0.2,10,True,False
+SCH00162,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-07,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00163,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-07,Morning,06:00,14:00,9.1,1.1,3,False,False
+SCH00164,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-07,Night,22:00,06:00,8.0,0.0,14,True,False
+SCH00165,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-07,Night,22:00,06:00,9.3,1.3,10,False,False
+SCH00166,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-07,Morning,06:00,14:00,8.8,0.8,16,False,False
+SCH00167,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-07,Morning,06:00,14:00,8.1,0.1,11,False,False
+SCH00168,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-07,Night,22:00,06:00,8.9,0.9,11,False,False
+SCH00169,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-07,Evening,14:00,22:00,8.0,0.0,9,True,False
+SCH00170,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-07,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00171,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-07,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH00172,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-07,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00173,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-07,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00174,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-07,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00175,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-07,Evening,14:00,22:00,8.6,0.6,14,False,False
+SCH00176,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-07,Evening,14:00,22:00,9.1,1.1,6,False,False
+SCH00177,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-07,Evening,14:00,22:00,8.0,0.0,19,False,False
+SCH00178,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-07,Evening,14:00,22:00,10.3,2.3,10,False,False
+SCH00179,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-07,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00180,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-07,Morning,06:00,14:00,9.1,1.1,12,False,False
+SCH00181,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-07,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00182,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-07,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00183,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-07,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00184,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-07,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00185,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-07,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00186,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-07,Morning,06:00,14:00,8.0,0.0,8,True,False
+SCH00187,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-07,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH00188,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-07,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00189,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-07,Night,22:00,06:00,8.4,0.4,17,False,False
+SCH00190,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-07,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00191,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-07,Night,22:00,06:00,8.5,0.5,11,False,False
+SCH00192,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-07,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00193,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-07,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00194,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-07,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00195,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-07,Evening,14:00,22:00,8.2,0.2,14,False,False
+SCH00196,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-07,Evening,14:00,22:00,9.5,1.5,9,False,False
+SCH00197,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-07,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00198,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-07,Evening,14:00,22:00,8.3,0.3,14,True,False
+SCH00199,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-07,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00200,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-07,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00201,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-08,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00202,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-08,Morning,06:00,14:00,9.4,1.4,10,False,False
+SCH00203,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-08,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00204,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-08,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH00205,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-08,Morning,06:00,14:00,8.0,0.0,5,False,False
+SCH00206,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-08,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00207,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-08,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00208,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-08,Evening,14:00,22:00,8.0,0.0,15,True,False
+SCH00209,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-08,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00210,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-08,Morning,06:00,14:00,9.1,1.1,13,False,False
+SCH00211,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-08,Morning,06:00,14:00,8.1,0.1,10,True,False
+SCH00212,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-08,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00213,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-08,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00214,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-08,Night,22:00,06:00,8.3,0.3,6,False,False
+SCH00215,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-08,Morning,06:00,14:00,8.2,0.2,10,False,False
+SCH00216,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-08,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00217,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-08,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00218,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-08,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00219,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-08,Evening,14:00,22:00,8.0,0.0,11,False,True
+SCH00220,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-08,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00221,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-08,Morning,06:00,14:00,8.7,0.7,10,False,False
+SCH00222,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-08,Evening,14:00,22:00,8.4,0.4,12,False,False
+SCH00223,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-08,Night,22:00,06:00,8.0,0.0,9,True,False
+SCH00224,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-08,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00225,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-08,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00226,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-08,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00227,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-08,Evening,14:00,22:00,8.0,0.0,17,False,False
+SCH00228,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-08,Morning,06:00,14:00,8.0,0.0,14,True,False
+SCH00229,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-08,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00230,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-08,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00231,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-08,Evening,14:00,22:00,8.6,0.6,12,False,False
+SCH00232,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-08,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00233,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-08,Morning,06:00,14:00,9.7,1.7,13,False,False
+SCH00234,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-08,Morning,06:00,14:00,8.5,0.5,11,False,False
+SCH00235,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-08,Night,22:00,06:00,9.6,1.6,11,False,False
+SCH00236,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-08,Evening,14:00,22:00,8.1,0.1,6,False,False
+SCH00237,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-08,Night,22:00,06:00,8.0,0.0,7,True,False
+SCH00238,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-08,Night,22:00,06:00,8.1,0.1,12,False,False
+SCH00239,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-08,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00240,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-08,Evening,14:00,22:00,8.0,0.0,21,False,False
+SCH00241,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-08,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00242,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-08,Morning,06:00,14:00,8.0,0.0,12,False,True
+SCH00243,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-08,Morning,06:00,14:00,9.5,1.5,10,False,False
+SCH00244,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-08,Night,22:00,06:00,8.1,0.1,15,False,False
+SCH00245,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-08,Night,22:00,06:00,8.0,0.0,5,False,False
+SCH00246,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-08,Morning,06:00,14:00,8.0,0.0,20,False,False
+SCH00247,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-08,Night,22:00,06:00,9.2,1.2,15,False,False
+SCH00248,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-08,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00249,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-08,Night,22:00,06:00,8.5,0.5,4,False,False
+SCH00250,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-08,Night,22:00,06:00,8.1,0.1,9,True,False
+SCH00251,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-09,Morning,06:00,14:00,8.0,0.0,8,True,False
+SCH00252,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-09,Evening,14:00,22:00,8.2,0.2,12,False,False
+SCH00253,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-09,Night,22:00,06:00,9.0,1.0,8,False,False
+SCH00254,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-09,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00255,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-09,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00256,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-09,Night,22:00,06:00,9.1,1.1,12,False,False
+SCH00257,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-09,Morning,06:00,14:00,8.0,0.0,11,False,True
+SCH00258,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-09,Evening,14:00,22:00,8.7,0.7,8,False,False
+SCH00259,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-09,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00260,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-09,Night,22:00,06:00,9.2,1.2,6,False,False
+SCH00261,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-09,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00262,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-09,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00263,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-09,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00264,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-09,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00265,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-09,Morning,06:00,14:00,8.0,0.0,20,False,False
+SCH00266,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-09,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00267,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-09,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00268,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-09,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00269,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-09,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00270,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-09,Morning,06:00,14:00,8.0,0.0,5,False,False
+SCH00271,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-09,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH00272,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-09,Evening,14:00,22:00,9.0,1.0,15,False,False
+SCH00273,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-09,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH00274,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-09,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00275,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-09,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00276,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-09,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00277,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-09,Night,22:00,06:00,8.2,0.2,10,False,False
+SCH00278,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-09,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00279,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-09,Evening,14:00,22:00,8.0,0.0,15,False,True
+SCH00280,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-09,Night,22:00,06:00,8.3,0.3,7,False,False
+SCH00281,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-09,Morning,06:00,14:00,8.3,0.3,9,False,False
+SCH00282,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-09,Night,22:00,06:00,9.1,1.1,4,False,False
+SCH00283,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-09,Night,22:00,06:00,8.0,0.0,14,False,True
+SCH00284,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-09,Evening,14:00,22:00,9.3,1.3,7,False,False
+SCH00285,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-09,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00286,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-09,Night,22:00,06:00,8.0,0.0,5,True,False
+SCH00287,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-09,Morning,06:00,14:00,8.6,0.6,11,False,False
+SCH00288,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-09,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00289,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-09,Evening,14:00,22:00,8.8,0.8,13,False,False
+SCH00290,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-09,Evening,14:00,22:00,8.9,0.9,7,False,False
+SCH00291,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-09,Evening,14:00,22:00,8.9,0.9,12,False,False
+SCH00292,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-09,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00293,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-09,Morning,06:00,14:00,8.8,0.8,11,False,False
+SCH00294,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-09,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00295,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-09,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00296,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-09,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00297,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-09,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00298,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-09,Evening,14:00,22:00,8.3,0.3,15,False,False
+SCH00299,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-09,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00300,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-09,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00301,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-10,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00302,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-10,Night,22:00,06:00,8.1,0.1,15,False,False
+SCH00303,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-10,Night,22:00,06:00,8.1,0.1,13,False,False
+SCH00304,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-10,Night,22:00,06:00,8.0,0.0,6,True,False
+SCH00305,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-10,Evening,14:00,22:00,8.1,0.1,14,False,False
+SCH00306,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-10,Evening,14:00,22:00,8.3,0.3,15,False,False
+SCH00307,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-10,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00308,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-10,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00309,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-10,Evening,14:00,22:00,8.4,0.4,17,False,False
+SCH00310,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-10,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00311,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-10,Night,22:00,06:00,9.8,1.8,15,False,False
+SCH00312,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-10,Morning,06:00,14:00,8.6,0.6,8,False,False
+SCH00313,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-10,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH00314,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-10,Night,22:00,06:00,8.7,0.7,13,False,False
+SCH00315,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-10,Morning,06:00,14:00,8.9,0.9,10,True,False
+SCH00316,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-10,Evening,14:00,22:00,8.0,0.0,6,False,False
+SCH00317,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-10,Evening,14:00,22:00,8.0,0.0,12,True,False
+SCH00318,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-10,Morning,06:00,14:00,8.6,0.6,9,True,False
+SCH00319,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-10,Evening,14:00,22:00,8.7,0.7,13,False,False
+SCH00320,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-10,Evening,14:00,22:00,8.5,0.5,11,False,False
+SCH00321,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-10,Night,22:00,06:00,9.6,1.6,10,True,False
+SCH00322,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-10,Evening,14:00,22:00,9.7,1.7,9,False,True
+SCH00323,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-10,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00324,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-10,Night,22:00,06:00,8.1,0.1,16,False,False
+SCH00325,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-10,Evening,14:00,22:00,9.0,1.0,14,False,False
+SCH00326,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-10,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00327,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-10,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00328,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-10,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00329,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-10,Night,22:00,06:00,8.0,0.0,13,True,False
+SCH00330,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-10,Morning,06:00,14:00,8.5,0.5,16,False,True
+SCH00331,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-10,Evening,14:00,22:00,8.4,0.4,12,True,False
+SCH00332,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-10,Night,22:00,06:00,9.3,1.3,9,False,False
+SCH00333,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-10,Evening,14:00,22:00,8.3,0.3,17,False,False
+SCH00334,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-10,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH00335,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-10,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00336,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-10,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00337,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-10,Evening,14:00,22:00,8.2,0.2,13,False,False
+SCH00338,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-10,Morning,06:00,14:00,8.4,0.4,9,True,False
+SCH00339,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-10,Night,22:00,06:00,8.1,0.1,14,False,False
+SCH00340,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-10,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00341,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-10,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00342,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-10,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00343,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-10,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00344,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-10,Night,22:00,06:00,8.7,0.7,11,False,False
+SCH00345,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-10,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00346,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-10,Morning,06:00,14:00,8.0,0.0,15,False,True
+SCH00347,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-10,Morning,06:00,14:00,8.4,0.4,11,True,False
+SCH00348,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-10,Evening,14:00,22:00,8.9,0.9,12,False,False
+SCH00349,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-10,Morning,06:00,14:00,8.0,0.0,13,True,False
+SCH00350,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-10,Night,22:00,06:00,8.2,0.2,18,False,False
+SCH00351,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-11,Morning,06:00,14:00,8.8,0.8,11,False,False
+SCH00352,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-11,Morning,06:00,14:00,8.3,0.3,12,False,False
+SCH00353,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-11,Evening,14:00,22:00,8.0,0.0,19,True,False
+SCH00354,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-11,Night,22:00,06:00,8.1,0.1,11,False,False
+SCH00355,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-11,Night,22:00,06:00,8.0,0.0,15,True,False
+SCH00356,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-11,Night,22:00,06:00,8.0,0.0,6,False,False
+SCH00357,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-11,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00358,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-11,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00359,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-11,Morning,06:00,14:00,8.1,0.1,7,False,False
+SCH00360,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-11,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00361,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-11,Evening,14:00,22:00,8.7,0.7,14,True,True
+SCH00362,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-11,Evening,14:00,22:00,9.0,1.0,14,False,False
+SCH00363,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-11,Night,22:00,06:00,8.0,0.0,18,False,False
+SCH00364,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-11,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00365,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-11,Morning,06:00,14:00,9.2,1.2,12,False,False
+SCH00366,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-11,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00367,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-11,Morning,06:00,14:00,8.8,0.8,16,False,False
+SCH00368,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-11,Morning,06:00,14:00,8.7,0.7,10,False,False
+SCH00369,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-11,Night,22:00,06:00,9.2,1.2,13,True,False
+SCH00370,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-11,Morning,06:00,14:00,8.8,0.8,12,True,False
+SCH00371,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-11,Morning,06:00,14:00,8.5,0.5,19,False,False
+SCH00372,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-11,Evening,14:00,22:00,8.6,0.6,12,False,False
+SCH00373,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-11,Evening,14:00,22:00,9.9,1.9,10,False,False
+SCH00374,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-11,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00375,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-11,Night,22:00,06:00,8.9,0.9,9,False,False
+SCH00376,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-11,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00377,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-11,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00378,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-11,Evening,14:00,22:00,8.4,0.4,12,False,False
+SCH00379,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-11,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00380,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-11,Night,22:00,06:00,8.0,0.0,8,True,False
+SCH00381,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-11,Night,22:00,06:00,9.1,1.1,7,False,False
+SCH00382,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-11,Night,22:00,06:00,8.3,0.3,16,False,False
+SCH00383,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-11,Evening,14:00,22:00,8.1,0.1,15,True,False
+SCH00384,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-11,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00385,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-11,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00386,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-11,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00387,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-11,Night,22:00,06:00,8.1,0.1,14,False,False
+SCH00388,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-11,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00389,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-11,Morning,06:00,14:00,8.6,0.6,12,False,False
+SCH00390,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-11,Night,22:00,06:00,8.1,0.1,8,False,False
+SCH00391,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-11,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00392,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-11,Morning,06:00,14:00,8.2,0.2,10,False,False
+SCH00393,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-11,Night,22:00,06:00,8.3,0.3,8,False,False
+SCH00394,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-11,Evening,14:00,22:00,8.9,0.9,9,False,False
+SCH00395,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-11,Morning,06:00,14:00,8.0,0.0,19,False,False
+SCH00396,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-11,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00397,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-11,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00398,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-11,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00399,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-11,Evening,14:00,22:00,8.0,0.0,11,True,False
+SCH00400,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-11,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00401,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-12,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00402,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-12,Morning,06:00,14:00,8.1,0.1,11,False,False
+SCH00403,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-12,Evening,14:00,22:00,8.2,0.2,9,False,False
+SCH00404,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-12,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH00405,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-12,Morning,06:00,14:00,9.2,1.2,15,False,False
+SCH00406,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-12,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00407,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-12,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00408,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-12,Evening,14:00,22:00,8.0,0.0,17,False,False
+SCH00409,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-12,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00410,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-12,Night,22:00,06:00,8.0,0.0,15,True,False
+SCH00411,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-12,Evening,14:00,22:00,8.8,0.8,12,True,False
+SCH00412,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-12,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00413,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-12,Night,22:00,06:00,8.5,0.5,11,False,False
+SCH00414,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-12,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00415,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-12,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00416,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-12,Morning,06:00,14:00,8.2,0.2,7,False,False
+SCH00417,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-12,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00418,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-12,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00419,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-12,Night,22:00,06:00,8.4,0.4,14,False,False
+SCH00420,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-12,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00421,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-12,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00422,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-12,Morning,06:00,14:00,8.7,0.7,12,False,False
+SCH00423,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-12,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00424,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-12,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH00425,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-12,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH00426,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-12,Morning,06:00,14:00,8.4,0.4,11,False,False
+SCH00427,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-12,Night,22:00,06:00,8.1,0.1,9,False,False
+SCH00428,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-12,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00429,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-12,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00430,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-12,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH00431,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-12,Night,22:00,06:00,8.7,0.7,16,False,False
+SCH00432,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-12,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00433,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-12,Morning,06:00,14:00,9.6,1.6,6,False,False
+SCH00434,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-12,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00435,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-12,Morning,06:00,14:00,8.9,0.9,13,False,False
+SCH00436,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-12,Morning,06:00,14:00,9.0,1.0,11,False,False
+SCH00437,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-12,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH00438,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-12,Morning,06:00,14:00,8.8,0.8,9,False,False
+SCH00439,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-12,Evening,14:00,22:00,8.0,0.0,3,True,False
+SCH00440,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-12,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH00441,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-12,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00442,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-12,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00443,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-12,Morning,06:00,14:00,9.5,1.5,18,True,False
+SCH00444,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-12,Night,22:00,06:00,9.3,1.3,8,True,False
+SCH00445,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-12,Evening,14:00,22:00,8.1,0.1,10,True,False
+SCH00446,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-12,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH00447,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-12,Evening,14:00,22:00,8.1,0.1,14,True,False
+SCH00448,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-12,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00449,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-12,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00450,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-12,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00451,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-13,Morning,06:00,14:00,9.1,1.1,11,False,False
+SCH00452,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-13,Night,22:00,06:00,8.0,0.0,15,True,False
+SCH00453,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-13,Night,22:00,06:00,9.5,1.5,11,False,False
+SCH00454,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-13,Night,22:00,06:00,8.0,0.0,13,True,False
+SCH00455,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-13,Evening,14:00,22:00,8.3,0.3,7,False,False
+SCH00456,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-13,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00457,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-13,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00458,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-13,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00459,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-13,Morning,06:00,14:00,8.8,0.8,11,False,False
+SCH00460,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-13,Morning,06:00,14:00,8.0,0.0,10,True,False
+SCH00461,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-13,Morning,06:00,14:00,8.3,0.3,9,False,False
+SCH00462,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-13,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00463,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-13,Morning,06:00,14:00,8.7,0.7,15,False,False
+SCH00464,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-13,Morning,06:00,14:00,8.4,0.4,10,False,False
+SCH00465,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-13,Night,22:00,06:00,8.5,0.5,13,False,False
+SCH00466,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-13,Night,22:00,06:00,8.8,0.8,6,False,False
+SCH00467,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-13,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00468,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-13,Morning,06:00,14:00,8.2,0.2,19,False,False
+SCH00469,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-13,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00470,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-13,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH00471,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-13,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00472,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-13,Morning,06:00,14:00,8.6,0.6,16,False,False
+SCH00473,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-13,Morning,06:00,14:00,8.2,0.2,11,True,False
+SCH00474,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-13,Morning,06:00,14:00,8.1,0.1,10,False,False
+SCH00475,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-13,Morning,06:00,14:00,8.8,0.8,12,False,False
+SCH00476,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-13,Evening,14:00,22:00,8.4,0.4,14,True,False
+SCH00477,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-13,Morning,06:00,14:00,8.6,0.6,10,False,False
+SCH00478,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-13,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00479,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-13,Morning,06:00,14:00,8.1,0.1,10,False,False
+SCH00480,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-13,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00481,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-13,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00482,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-13,Morning,06:00,14:00,8.1,0.1,12,False,False
+SCH00483,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-13,Night,22:00,06:00,8.8,0.8,14,True,False
+SCH00484,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-13,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH00485,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-13,Morning,06:00,14:00,8.6,0.6,8,False,False
+SCH00486,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-13,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH00487,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-13,Night,22:00,06:00,9.2,1.2,11,False,False
+SCH00488,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-13,Evening,14:00,22:00,8.3,0.3,13,False,False
+SCH00489,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-13,Night,22:00,06:00,8.5,0.5,8,False,False
+SCH00490,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-13,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00491,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-13,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00492,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-13,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00493,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-13,Evening,14:00,22:00,8.9,0.9,14,True,True
+SCH00494,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-13,Morning,06:00,14:00,8.8,0.8,6,False,False
+SCH00495,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-13,Night,22:00,06:00,8.7,0.7,9,True,False
+SCH00496,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-13,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00497,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-13,Morning,06:00,14:00,9.0,1.0,11,False,False
+SCH00498,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-13,Morning,06:00,14:00,8.5,0.5,8,False,False
+SCH00499,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-13,Morning,06:00,14:00,8.6,0.6,15,False,False
+SCH00500,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-13,Night,22:00,06:00,8.0,0.0,18,False,False
+SCH00501,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-14,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00502,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-14,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH00503,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-14,Evening,14:00,22:00,9.0,1.0,10,True,False
+SCH00504,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-14,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00505,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-14,Evening,14:00,22:00,8.5,0.5,10,False,False
+SCH00506,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-14,Morning,06:00,14:00,8.1,0.1,16,False,False
+SCH00507,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-14,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00508,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-14,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00509,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-14,Night,22:00,06:00,8.1,0.1,11,False,True
+SCH00510,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-14,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00511,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-14,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00512,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-14,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00513,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-14,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00514,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-14,Evening,14:00,22:00,8.1,0.1,12,False,False
+SCH00515,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-14,Morning,06:00,14:00,9.0,1.0,10,False,False
+SCH00516,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-14,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00517,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-14,Evening,14:00,22:00,8.0,0.0,20,False,False
+SCH00518,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-14,Evening,14:00,22:00,8.6,0.6,7,False,False
+SCH00519,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-14,Morning,06:00,14:00,8.0,0.0,5,False,False
+SCH00520,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-14,Morning,06:00,14:00,8.0,0.0,18,True,False
+SCH00521,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-14,Evening,14:00,22:00,8.0,0.0,6,False,False
+SCH00522,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-14,Evening,14:00,22:00,8.9,0.9,14,False,True
+SCH00523,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-14,Morning,06:00,14:00,8.5,0.5,10,False,False
+SCH00524,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-14,Night,22:00,06:00,9.4,1.4,16,False,False
+SCH00525,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-14,Evening,14:00,22:00,8.0,0.0,11,True,False
+SCH00526,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-14,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00527,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-14,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00528,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-14,Night,22:00,06:00,9.0,1.0,15,False,False
+SCH00529,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-14,Evening,14:00,22:00,8.9,0.9,11,False,False
+SCH00530,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-14,Night,22:00,06:00,8.1,0.1,13,False,False
+SCH00531,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-14,Morning,06:00,14:00,8.1,0.1,14,True,False
+SCH00532,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-14,Night,22:00,06:00,8.0,0.0,18,True,False
+SCH00533,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-14,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00534,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-14,Evening,14:00,22:00,9.0,1.0,13,False,False
+SCH00535,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-14,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00536,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-14,Morning,06:00,14:00,8.6,0.6,14,False,False
+SCH00537,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-14,Morning,06:00,14:00,8.0,0.0,6,False,False
+SCH00538,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-14,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00539,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-14,Evening,14:00,22:00,8.6,0.6,9,False,False
+SCH00540,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-14,Evening,14:00,22:00,8.0,0.0,12,False,True
+SCH00541,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-14,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00542,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-14,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00543,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-14,Morning,06:00,14:00,8.4,0.4,10,False,False
+SCH00544,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-14,Night,22:00,06:00,9.1,1.1,13,False,False
+SCH00545,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-14,Night,22:00,06:00,8.2,0.2,11,False,False
+SCH00546,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-14,Evening,14:00,22:00,8.1,0.1,10,False,False
+SCH00547,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-14,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00548,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-14,Night,22:00,06:00,8.3,0.3,6,True,False
+SCH00549,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-14,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00550,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-14,Night,22:00,06:00,9.2,1.2,8,False,False
+SCH00551,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-15,Evening,14:00,22:00,8.0,0.0,13,True,False
+SCH00552,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-15,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00553,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-15,Night,22:00,06:00,8.1,0.1,15,False,False
+SCH00554,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-15,Night,22:00,06:00,8.4,0.4,10,False,False
+SCH00555,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-15,Morning,06:00,14:00,9.2,1.2,9,False,False
+SCH00556,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-15,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00557,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-15,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00558,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-15,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH00559,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-15,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00560,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-15,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00561,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-15,Night,22:00,06:00,8.4,0.4,13,False,False
+SCH00562,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-15,Morning,06:00,14:00,8.0,0.0,6,False,False
+SCH00563,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-15,Evening,14:00,22:00,8.7,0.7,7,False,False
+SCH00564,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-15,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00565,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-15,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00566,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-15,Morning,06:00,14:00,8.3,0.3,5,False,False
+SCH00567,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-15,Night,22:00,06:00,8.8,0.8,11,False,False
+SCH00568,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-15,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00569,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-15,Evening,14:00,22:00,8.0,0.0,7,False,False
+SCH00570,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-15,Evening,14:00,22:00,8.8,0.8,8,False,False
+SCH00571,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-15,Morning,06:00,14:00,8.1,0.1,9,False,False
+SCH00572,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-15,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00573,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-15,Night,22:00,06:00,8.5,0.5,11,False,False
+SCH00574,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-15,Night,22:00,06:00,8.6,0.6,8,False,False
+SCH00575,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-15,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00576,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-15,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00577,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-15,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00578,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-15,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00579,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-15,Evening,14:00,22:00,8.5,0.5,6,False,False
+SCH00580,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-15,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH00581,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-15,Morning,06:00,14:00,8.2,0.2,11,False,False
+SCH00582,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-15,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00583,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-15,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00584,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-15,Morning,06:00,14:00,10.0,2.0,14,False,False
+SCH00585,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-15,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00586,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-15,Night,22:00,06:00,9.1,1.1,13,False,False
+SCH00587,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-15,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00588,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-15,Night,22:00,06:00,8.5,0.5,14,False,False
+SCH00589,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-15,Evening,14:00,22:00,8.3,0.3,8,False,False
+SCH00590,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-15,Evening,14:00,22:00,8.9,0.9,14,False,False
+SCH00591,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-15,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00592,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-15,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00593,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-15,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00594,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-15,Morning,06:00,14:00,8.0,0.0,15,True,True
+SCH00595,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-15,Night,22:00,06:00,8.4,0.4,15,False,False
+SCH00596,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-15,Morning,06:00,14:00,9.1,1.1,8,False,False
+SCH00597,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-15,Morning,06:00,14:00,8.7,0.7,16,False,False
+SCH00598,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-15,Night,22:00,06:00,8.0,0.0,9,False,True
+SCH00599,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-15,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00600,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-15,Evening,14:00,22:00,8.1,0.1,17,False,False
+SCH00601,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-16,Night,22:00,06:00,8.3,0.3,3,False,True
+SCH00602,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-16,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH00603,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-16,Evening,14:00,22:00,8.6,0.6,10,False,False
+SCH00604,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-16,Night,22:00,06:00,8.2,0.2,15,False,False
+SCH00605,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-16,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH00606,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-16,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00607,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-16,Morning,06:00,14:00,8.4,0.4,13,False,False
+SCH00608,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-16,Night,22:00,06:00,9.0,1.0,16,False,False
+SCH00609,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-16,Night,22:00,06:00,8.7,0.7,9,False,False
+SCH00610,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-16,Morning,06:00,14:00,8.6,0.6,9,False,False
+SCH00611,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-16,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00612,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-16,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00613,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-16,Morning,06:00,14:00,8.0,0.0,6,False,False
+SCH00614,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-16,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH00615,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-16,Night,22:00,06:00,8.0,0.0,7,True,False
+SCH00616,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-16,Evening,14:00,22:00,8.5,0.5,13,False,False
+SCH00617,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-16,Evening,14:00,22:00,8.9,0.9,11,True,False
+SCH00618,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-16,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00619,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-16,Night,22:00,06:00,8.0,0.0,11,False,True
+SCH00620,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-16,Night,22:00,06:00,8.9,0.9,11,False,False
+SCH00621,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-16,Evening,14:00,22:00,9.1,1.1,14,False,False
+SCH00622,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-16,Night,22:00,06:00,9.1,1.1,11,True,False
+SCH00623,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-16,Night,22:00,06:00,9.2,1.2,11,False,False
+SCH00624,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-16,Night,22:00,06:00,8.6,0.6,11,False,False
+SCH00625,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-16,Night,22:00,06:00,8.0,0.0,16,True,False
+SCH00626,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-16,Night,22:00,06:00,9.0,1.0,12,True,False
+SCH00627,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-16,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00628,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-16,Morning,06:00,14:00,8.0,0.0,18,False,False
+SCH00629,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-16,Night,22:00,06:00,8.9,0.9,12,False,False
+SCH00630,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-16,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00631,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-16,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00632,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-16,Morning,06:00,14:00,8.2,0.2,11,False,False
+SCH00633,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-16,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00634,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-16,Night,22:00,06:00,8.1,0.1,16,False,False
+SCH00635,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-16,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH00636,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-16,Evening,14:00,22:00,8.2,0.2,9,False,True
+SCH00637,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-16,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00638,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-16,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00639,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-16,Evening,14:00,22:00,9.1,1.1,6,False,False
+SCH00640,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-16,Evening,14:00,22:00,8.0,0.0,10,False,True
+SCH00641,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-16,Morning,06:00,14:00,9.4,1.4,6,True,False
+SCH00642,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-16,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00643,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-16,Night,22:00,06:00,8.3,0.3,14,False,False
+SCH00644,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-16,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00645,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-16,Evening,14:00,22:00,8.2,0.2,9,False,False
+SCH00646,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-16,Morning,06:00,14:00,8.2,0.2,9,False,False
+SCH00647,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-16,Evening,14:00,22:00,8.8,0.8,14,False,False
+SCH00648,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-16,Morning,06:00,14:00,9.8,1.8,8,True,False
+SCH00649,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-16,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00650,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-16,Evening,14:00,22:00,9.9,1.9,15,False,False
+SCH00651,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-17,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH00652,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-17,Evening,14:00,22:00,8.2,0.2,4,False,False
+SCH00653,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-17,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00654,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-17,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00655,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-17,Evening,14:00,22:00,9.2,1.2,13,False,True
+SCH00656,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-17,Evening,14:00,22:00,8.4,0.4,10,False,False
+SCH00657,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-17,Evening,14:00,22:00,8.4,0.4,7,False,False
+SCH00658,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-17,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00659,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-17,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00660,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-17,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00661,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-17,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00662,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-17,Evening,14:00,22:00,9.4,1.4,8,False,False
+SCH00663,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-17,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00664,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-17,Morning,06:00,14:00,9.4,1.4,9,False,False
+SCH00665,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-17,Evening,14:00,22:00,8.0,0.0,13,True,False
+SCH00666,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-17,Evening,14:00,22:00,8.2,0.2,15,False,False
+SCH00667,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-17,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH00668,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-17,Evening,14:00,22:00,8.3,0.3,9,False,False
+SCH00669,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-17,Morning,06:00,14:00,9.5,1.5,10,False,False
+SCH00670,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-17,Evening,14:00,22:00,9.2,1.2,8,False,False
+SCH00671,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-17,Night,22:00,06:00,8.2,0.2,11,False,False
+SCH00672,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-17,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00673,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-17,Evening,14:00,22:00,8.0,0.0,14,True,False
+SCH00674,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-17,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00675,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-17,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00676,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-17,Evening,14:00,22:00,8.6,0.6,13,False,False
+SCH00677,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-17,Evening,14:00,22:00,8.0,0.0,12,False,True
+SCH00678,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-17,Night,22:00,06:00,8.1,0.1,13,True,False
+SCH00679,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-17,Night,22:00,06:00,8.6,0.6,14,False,False
+SCH00680,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-17,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00681,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-17,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00682,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-17,Evening,14:00,22:00,8.2,0.2,11,False,False
+SCH00683,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-17,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00684,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-17,Morning,06:00,14:00,8.1,0.1,12,False,False
+SCH00685,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-17,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00686,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-17,Evening,14:00,22:00,8.0,0.0,6,True,False
+SCH00687,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-17,Morning,06:00,14:00,8.0,0.0,13,True,False
+SCH00688,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-17,Morning,06:00,14:00,8.4,0.4,11,False,False
+SCH00689,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-17,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00690,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-17,Night,22:00,06:00,8.9,0.9,14,False,False
+SCH00691,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-17,Night,22:00,06:00,8.0,0.0,8,True,False
+SCH00692,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-17,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00693,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-17,Night,22:00,06:00,8.0,0.0,5,False,False
+SCH00694,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-17,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00695,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-17,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00696,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-17,Evening,14:00,22:00,8.0,0.0,16,True,False
+SCH00697,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-17,Evening,14:00,22:00,9.1,1.1,15,False,False
+SCH00698,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-17,Evening,14:00,22:00,8.2,0.2,16,False,False
+SCH00699,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-17,Morning,06:00,14:00,8.4,0.4,6,False,False
+SCH00700,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-17,Morning,06:00,14:00,8.0,0.0,15,True,False
+SCH00701,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-18,Morning,06:00,14:00,8.7,0.7,17,False,False
+SCH00702,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-18,Evening,14:00,22:00,8.9,0.9,13,False,False
+SCH00703,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-18,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00704,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-18,Night,22:00,06:00,9.0,1.0,10,False,False
+SCH00705,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-18,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00706,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-18,Morning,06:00,14:00,9.4,1.4,8,False,False
+SCH00707,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-18,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00708,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-18,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH00709,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-18,Night,22:00,06:00,8.4,0.4,13,False,False
+SCH00710,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-18,Morning,06:00,14:00,8.3,0.3,14,False,False
+SCH00711,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-18,Morning,06:00,14:00,8.0,0.0,20,False,False
+SCH00712,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-18,Morning,06:00,14:00,8.0,0.0,6,False,False
+SCH00713,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-18,Morning,06:00,14:00,8.0,0.0,7,False,False
+SCH00714,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-18,Night,22:00,06:00,8.0,0.0,8,False,True
+SCH00715,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-18,Night,22:00,06:00,8.4,0.4,9,False,False
+SCH00716,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-18,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00717,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-18,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00718,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-18,Evening,14:00,22:00,8.3,0.3,11,False,False
+SCH00719,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-18,Morning,06:00,14:00,8.0,0.0,6,True,False
+SCH00720,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-18,Night,22:00,06:00,8.4,0.4,13,False,False
+SCH00721,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-18,Night,22:00,06:00,8.1,0.1,18,True,False
+SCH00722,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-18,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00723,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-18,Morning,06:00,14:00,9.3,1.3,12,False,False
+SCH00724,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-18,Morning,06:00,14:00,8.3,0.3,5,False,False
+SCH00725,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-18,Night,22:00,06:00,8.2,0.2,18,False,False
+SCH00726,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-18,Evening,14:00,22:00,8.0,0.0,16,True,False
+SCH00727,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-18,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00728,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-18,Evening,14:00,22:00,8.0,0.0,5,False,False
+SCH00729,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-18,Night,22:00,06:00,8.7,0.7,8,False,False
+SCH00730,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-18,Night,22:00,06:00,8.3,0.3,14,False,False
+SCH00731,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-18,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00732,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-18,Night,22:00,06:00,8.0,0.0,15,True,False
+SCH00733,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-18,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00734,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-18,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00735,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-18,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00736,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-18,Night,22:00,06:00,8.5,0.5,8,False,False
+SCH00737,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-18,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00738,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-18,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00739,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-18,Evening,14:00,22:00,9.1,1.1,11,True,False
+SCH00740,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-18,Night,22:00,06:00,9.3,1.3,16,True,False
+SCH00741,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-18,Morning,06:00,14:00,9.0,1.0,11,False,False
+SCH00742,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-18,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00743,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-18,Night,22:00,06:00,9.3,1.3,4,False,False
+SCH00744,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-18,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00745,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-18,Night,22:00,06:00,8.6,0.6,9,False,False
+SCH00746,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-18,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00747,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-18,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00748,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-18,Evening,14:00,22:00,8.0,0.0,9,True,False
+SCH00749,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-18,Morning,06:00,14:00,8.1,0.1,7,False,False
+SCH00750,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-18,Morning,06:00,14:00,8.0,0.0,6,False,False
+SCH00751,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-19,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00752,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-19,Morning,06:00,14:00,9.5,1.5,17,False,False
+SCH00753,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-19,Morning,06:00,14:00,8.4,0.4,9,True,False
+SCH00754,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-19,Morning,06:00,14:00,8.0,0.0,14,True,False
+SCH00755,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-19,Evening,14:00,22:00,8.0,0.0,7,False,False
+SCH00756,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-19,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00757,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-19,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00758,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-19,Night,22:00,06:00,8.1,0.1,8,False,False
+SCH00759,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-19,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00760,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-19,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00761,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-19,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH00762,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-19,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00763,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-19,Morning,06:00,14:00,8.0,0.0,17,False,False
+SCH00764,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-19,Night,22:00,06:00,8.3,0.3,19,False,False
+SCH00765,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-19,Evening,14:00,22:00,8.4,0.4,12,False,False
+SCH00766,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-19,Night,22:00,06:00,8.0,0.0,19,False,False
+SCH00767,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-19,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00768,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-19,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00769,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-19,Morning,06:00,14:00,9.4,1.4,12,True,False
+SCH00770,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-19,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00771,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-19,Morning,06:00,14:00,8.7,0.7,10,True,False
+SCH00772,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-19,Evening,14:00,22:00,9.5,1.5,9,False,False
+SCH00773,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-19,Night,22:00,06:00,8.2,0.2,17,False,False
+SCH00774,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-19,Evening,14:00,22:00,8.8,0.8,11,True,False
+SCH00775,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-19,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH00776,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-19,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00777,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-19,Morning,06:00,14:00,8.5,0.5,13,False,False
+SCH00778,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-19,Evening,14:00,22:00,8.0,0.0,7,False,False
+SCH00779,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-19,Morning,06:00,14:00,8.0,0.0,7,False,False
+SCH00780,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-19,Morning,06:00,14:00,8.0,0.0,13,False,True
+SCH00781,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-19,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00782,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-19,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00783,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-19,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00784,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-19,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00785,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-19,Night,22:00,06:00,9.4,1.4,7,False,False
+SCH00786,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-19,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00787,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-19,Evening,14:00,22:00,10.8,2.8,15,False,False
+SCH00788,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-19,Night,22:00,06:00,8.4,0.4,8,False,False
+SCH00789,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-19,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00790,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-19,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00791,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-19,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00792,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-19,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00793,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-19,Night,22:00,06:00,8.0,0.0,13,True,True
+SCH00794,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-19,Night,22:00,06:00,8.2,0.2,10,False,False
+SCH00795,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-19,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH00796,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-19,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00797,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-19,Morning,06:00,14:00,9.1,1.1,5,False,False
+SCH00798,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-19,Night,22:00,06:00,8.9,0.9,9,False,False
+SCH00799,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-19,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00800,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-19,Morning,06:00,14:00,10.0,2.0,8,False,False
+SCH00801,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-20,Morning,06:00,14:00,8.0,0.0,17,False,True
+SCH00802,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-20,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00803,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-20,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00804,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-20,Night,22:00,06:00,8.0,0.0,5,False,False
+SCH00805,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-20,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00806,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-20,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00807,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-20,Evening,14:00,22:00,8.7,0.7,9,False,False
+SCH00808,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-20,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH00809,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-20,Night,22:00,06:00,8.4,0.4,14,False,False
+SCH00810,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-20,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00811,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-20,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00812,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-20,Morning,06:00,14:00,8.8,0.8,10,False,False
+SCH00813,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-20,Night,22:00,06:00,8.8,0.8,15,False,False
+SCH00814,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-20,Night,22:00,06:00,8.9,0.9,6,False,False
+SCH00815,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-20,Evening,14:00,22:00,8.7,0.7,6,False,False
+SCH00816,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-20,Morning,06:00,14:00,8.6,0.6,10,True,False
+SCH00817,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-20,Night,22:00,06:00,8.9,0.9,8,False,False
+SCH00818,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-20,Morning,06:00,14:00,8.0,0.0,7,False,False
+SCH00819,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-20,Morning,06:00,14:00,8.0,0.0,9,True,False
+SCH00820,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-20,Morning,06:00,14:00,9.4,1.4,12,False,False
+SCH00821,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-20,Morning,06:00,14:00,8.1,0.1,20,False,True
+SCH00822,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-20,Night,22:00,06:00,8.2,0.2,15,True,False
+SCH00823,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-20,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00824,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-20,Evening,14:00,22:00,8.4,0.4,12,False,False
+SCH00825,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-20,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00826,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-20,Evening,14:00,22:00,8.7,0.7,11,False,False
+SCH00827,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-20,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00828,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-20,Evening,14:00,22:00,8.9,0.9,17,True,False
+SCH00829,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-20,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00830,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-20,Night,22:00,06:00,8.8,0.8,12,False,False
+SCH00831,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-20,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00832,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-20,Evening,14:00,22:00,9.0,1.0,8,True,False
+SCH00833,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-20,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00834,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-20,Evening,14:00,22:00,8.0,0.0,8,True,False
+SCH00835,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-20,Evening,14:00,22:00,9.7,1.7,7,False,False
+SCH00836,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-20,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH00837,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-20,Morning,06:00,14:00,8.8,0.8,13,False,False
+SCH00838,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-20,Morning,06:00,14:00,8.9,0.9,14,False,False
+SCH00839,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-20,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00840,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-20,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00841,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-20,Evening,14:00,22:00,8.3,0.3,11,True,False
+SCH00842,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-20,Morning,06:00,14:00,8.0,0.0,14,True,False
+SCH00843,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-20,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00844,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-20,Morning,06:00,14:00,8.6,0.6,14,False,False
+SCH00845,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-20,Night,22:00,06:00,9.1,1.1,16,False,False
+SCH00846,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-20,Night,22:00,06:00,9.2,1.2,16,False,False
+SCH00847,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-20,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00848,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-20,Night,22:00,06:00,8.6,0.6,14,True,False
+SCH00849,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-20,Evening,14:00,22:00,8.3,0.3,11,False,False
+SCH00850,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-20,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00851,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-21,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH00852,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-21,Evening,14:00,22:00,8.0,0.0,18,False,False
+SCH00853,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-21,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH00854,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-21,Night,22:00,06:00,8.3,0.3,15,False,False
+SCH00855,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-21,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00856,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-21,Night,22:00,06:00,8.3,0.3,8,True,False
+SCH00857,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,8.0,0.0,7,False,True
+SCH00858,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-21,Evening,14:00,22:00,8.0,0.0,13,True,False
+SCH00859,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-21,Night,22:00,06:00,9.0,1.0,16,False,False
+SCH00860,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-21,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH00861,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-21,Evening,14:00,22:00,8.0,0.0,5,False,False
+SCH00862,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-21,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00863,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-21,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00864,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-21,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00865,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-21,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00866,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-21,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00867,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,8.3,0.3,14,False,False
+SCH00868,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-21,Evening,14:00,22:00,8.3,0.3,15,False,False
+SCH00869,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00870,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-21,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00871,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,8.5,0.5,17,False,False
+SCH00872,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-21,Morning,06:00,14:00,8.5,0.5,16,False,False
+SCH00873,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-21,Morning,06:00,14:00,8.1,0.1,9,False,False
+SCH00874,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-21,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00875,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-21,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00876,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-21,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH00877,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-21,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00878,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-21,Night,22:00,06:00,8.9,0.9,7,True,False
+SCH00879,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-21,Evening,14:00,22:00,9.0,1.0,14,True,False
+SCH00880,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,9.6,1.6,14,False,True
+SCH00881,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,8.0,0.0,13,True,False
+SCH00882,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-21,Morning,06:00,14:00,9.0,1.0,13,False,False
+SCH00883,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-21,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00884,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-21,Night,22:00,06:00,8.0,0.0,11,True,False
+SCH00885,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-21,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00886,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-21,Evening,14:00,22:00,8.7,0.7,12,True,False
+SCH00887,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-21,Morning,06:00,14:00,9.3,1.3,10,False,False
+SCH00888,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-21,Night,22:00,06:00,9.0,1.0,7,False,False
+SCH00889,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-21,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH00890,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-21,Morning,06:00,14:00,8.0,0.0,20,False,False
+SCH00891,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-21,Night,22:00,06:00,8.0,0.0,9,True,False
+SCH00892,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-21,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00893,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-21,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH00894,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-21,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH00895,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-21,Night,22:00,06:00,8.0,0.0,6,False,False
+SCH00896,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-21,Morning,06:00,14:00,8.3,0.3,4,False,False
+SCH00897,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-21,Morning,06:00,14:00,8.1,0.1,9,False,False
+SCH00898,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-21,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00899,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-21,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH00900,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-21,Morning,06:00,14:00,8.0,0.0,17,False,True
+SCH00901,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-22,Evening,14:00,22:00,8.5,0.5,9,True,False
+SCH00902,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-22,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00903,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-22,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH00904,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-22,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH00905,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-22,Morning,06:00,14:00,8.5,0.5,12,False,False
+SCH00906,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-22,Morning,06:00,14:00,9.0,1.0,12,True,False
+SCH00907,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-22,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00908,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-22,Evening,14:00,22:00,8.1,0.1,13,False,True
+SCH00909,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-22,Night,22:00,06:00,8.4,0.4,10,False,False
+SCH00910,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-22,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH00911,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-22,Morning,06:00,14:00,9.1,1.1,10,False,False
+SCH00912,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-22,Night,22:00,06:00,8.3,0.3,2,False,False
+SCH00913,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-22,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00914,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-22,Morning,06:00,14:00,8.4,0.4,12,False,False
+SCH00915,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-22,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00916,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-22,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH00917,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-22,Morning,06:00,14:00,8.6,0.6,14,False,False
+SCH00918,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-22,Evening,14:00,22:00,8.5,0.5,9,True,False
+SCH00919,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-22,Morning,06:00,14:00,8.0,0.0,10,True,False
+SCH00920,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-22,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH00921,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-22,Night,22:00,06:00,8.0,0.0,9,True,False
+SCH00922,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-22,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH00923,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-22,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00924,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-22,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH00925,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-22,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00926,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-22,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH00927,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-22,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00928,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-22,Night,22:00,06:00,8.5,0.5,11,False,False
+SCH00929,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-22,Morning,06:00,14:00,8.3,0.3,16,True,False
+SCH00930,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-22,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH00931,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-22,Morning,06:00,14:00,8.0,0.0,10,False,True
+SCH00932,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-22,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00933,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-22,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00934,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-22,Evening,14:00,22:00,8.5,0.5,12,False,False
+SCH00935,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-22,Morning,06:00,14:00,9.7,1.7,5,False,False
+SCH00936,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-22,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH00937,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-22,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00938,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-22,Morning,06:00,14:00,8.8,0.8,11,False,False
+SCH00939,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-22,Evening,14:00,22:00,8.2,0.2,14,False,False
+SCH00940,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-22,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00941,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-22,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00942,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-22,Night,22:00,06:00,8.1,0.1,12,True,False
+SCH00943,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-22,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH00944,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-22,Evening,14:00,22:00,8.1,0.1,6,False,False
+SCH00945,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-22,Morning,06:00,14:00,9.2,1.2,12,False,False
+SCH00946,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-22,Evening,14:00,22:00,8.9,0.9,8,False,False
+SCH00947,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-22,Morning,06:00,14:00,8.0,0.0,19,False,True
+SCH00948,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-22,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH00949,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-22,Evening,14:00,22:00,8.5,0.5,12,False,False
+SCH00950,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-22,Night,22:00,06:00,9.2,1.2,10,False,False
+SCH00951,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-23,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00952,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-23,Morning,06:00,14:00,8.0,0.0,15,True,False
+SCH00953,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-23,Night,22:00,06:00,10.5,2.5,11,False,False
+SCH00954,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-23,Evening,14:00,22:00,8.0,0.0,11,True,False
+SCH00955,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-23,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH00956,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-23,Morning,06:00,14:00,8.5,0.5,12,False,False
+SCH00957,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-23,Morning,06:00,14:00,9.4,1.4,8,False,False
+SCH00958,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-23,Morning,06:00,14:00,8.6,0.6,12,True,False
+SCH00959,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-23,Evening,14:00,22:00,9.0,1.0,10,False,False
+SCH00960,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-23,Morning,06:00,14:00,8.2,0.2,11,True,False
+SCH00961,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-23,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00962,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-23,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00963,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-23,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH00964,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-23,Morning,06:00,14:00,8.0,0.0,14,True,False
+SCH00965,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-23,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00966,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-23,Night,22:00,06:00,8.0,0.0,6,False,False
+SCH00967,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-23,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH00968,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-23,Night,22:00,06:00,8.8,0.8,15,True,False
+SCH00969,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-23,Morning,06:00,14:00,9.5,1.5,14,False,False
+SCH00970,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-23,Evening,14:00,22:00,8.5,0.5,11,False,False
+SCH00971,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-23,Night,22:00,06:00,10.0,2.0,10,False,False
+SCH00972,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-23,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00973,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-23,Morning,06:00,14:00,9.1,1.1,13,False,False
+SCH00974,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-23,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH00975,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-23,Evening,14:00,22:00,8.1,0.1,14,False,False
+SCH00976,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-23,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00977,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-23,Night,22:00,06:00,8.2,0.2,6,False,False
+SCH00978,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-23,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00979,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-23,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH00980,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-23,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00981,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-23,Night,22:00,06:00,8.6,0.6,11,True,False
+SCH00982,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-23,Evening,14:00,22:00,9.1,1.1,9,False,False
+SCH00983,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-23,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH00984,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-23,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH00985,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-23,Morning,06:00,14:00,8.8,0.8,15,True,False
+SCH00986,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-23,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH00987,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-23,Evening,14:00,22:00,8.0,0.0,3,False,False
+SCH00988,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-23,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH00989,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-23,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH00990,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-23,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH00991,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-23,Night,22:00,06:00,8.9,0.9,9,True,False
+SCH00992,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-23,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH00993,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-23,Night,22:00,06:00,8.3,0.3,10,False,False
+SCH00994,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-23,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH00995,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-23,Morning,06:00,14:00,9.1,1.1,15,True,False
+SCH00996,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-23,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH00997,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-23,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH00998,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-23,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH00999,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-23,Night,22:00,06:00,9.2,1.2,8,True,False
+SCH01000,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-23,Morning,06:00,14:00,9.0,1.0,9,False,False
+SCH01001,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-24,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01002,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-24,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01003,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-24,Evening,14:00,22:00,8.2,0.2,10,False,False
+SCH01004,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-24,Night,22:00,06:00,8.6,0.6,13,True,False
+SCH01005,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-24,Morning,06:00,14:00,8.3,0.3,15,False,False
+SCH01006,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-24,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH01007,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-24,Evening,14:00,22:00,8.6,0.6,20,False,False
+SCH01008,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-24,Night,22:00,06:00,9.1,1.1,19,True,False
+SCH01009,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-24,Night,22:00,06:00,8.2,0.2,12,True,False
+SCH01010,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-24,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01011,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-24,Morning,06:00,14:00,9.0,1.0,12,False,True
+SCH01012,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-24,Morning,06:00,14:00,8.3,0.3,10,False,False
+SCH01013,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-24,Evening,14:00,22:00,8.0,0.0,14,True,False
+SCH01014,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-24,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01015,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-24,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01016,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-24,Morning,06:00,14:00,9.1,1.1,9,False,False
+SCH01017,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-24,Night,22:00,06:00,8.1,0.1,9,False,False
+SCH01018,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-24,Evening,14:00,22:00,8.9,0.9,10,False,False
+SCH01019,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-24,Evening,14:00,22:00,8.7,0.7,15,False,False
+SCH01020,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-24,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01021,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-24,Morning,06:00,14:00,9.6,1.6,8,True,False
+SCH01022,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-24,Evening,14:00,22:00,8.5,0.5,9,False,False
+SCH01023,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-24,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH01024,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-24,Evening,14:00,22:00,8.6,0.6,15,False,True
+SCH01025,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-24,Evening,14:00,22:00,8.0,0.0,17,False,False
+SCH01026,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-24,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH01027,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-24,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01028,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-24,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01029,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-24,Evening,14:00,22:00,9.6,1.6,13,False,False
+SCH01030,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-24,Evening,14:00,22:00,8.5,0.5,13,True,False
+SCH01031,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-24,Morning,06:00,14:00,8.3,0.3,13,True,False
+SCH01032,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-24,Evening,14:00,22:00,8.3,0.3,14,False,False
+SCH01033,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-24,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH01034,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-24,Night,22:00,06:00,8.3,0.3,11,False,False
+SCH01035,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-24,Night,22:00,06:00,8.3,0.3,11,False,False
+SCH01036,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-24,Night,22:00,06:00,8.7,0.7,13,False,False
+SCH01037,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-24,Night,22:00,06:00,8.1,0.1,15,False,False
+SCH01038,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-24,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH01039,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-24,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH01040,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-24,Night,22:00,06:00,8.1,0.1,16,False,False
+SCH01041,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-24,Night,22:00,06:00,9.1,1.1,13,True,False
+SCH01042,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-24,Night,22:00,06:00,8.5,0.5,10,False,False
+SCH01043,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-24,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01044,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-24,Morning,06:00,14:00,9.3,1.3,9,False,False
+SCH01045,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-24,Evening,14:00,22:00,8.6,0.6,10,False,False
+SCH01046,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-24,Morning,06:00,14:00,8.9,0.9,6,False,False
+SCH01047,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-24,Evening,14:00,22:00,8.1,0.1,15,False,False
+SCH01048,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-24,Evening,14:00,22:00,8.3,0.3,11,False,False
+SCH01049,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-24,Morning,06:00,14:00,8.0,0.0,18,False,False
+SCH01050,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-24,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH01051,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-25,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01052,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-25,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01053,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-25,Evening,14:00,22:00,8.8,0.8,8,False,False
+SCH01054,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-25,Night,22:00,06:00,8.4,0.4,6,False,False
+SCH01055,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-25,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH01056,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-25,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH01057,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-25,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01058,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-25,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH01059,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-25,Morning,06:00,14:00,8.2,0.2,10,False,False
+SCH01060,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-25,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH01061,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-25,Night,22:00,06:00,8.5,0.5,7,False,False
+SCH01062,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-25,Morning,06:00,14:00,10.2,2.2,17,False,False
+SCH01063,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-25,Morning,06:00,14:00,8.6,0.6,12,True,False
+SCH01064,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-25,Evening,14:00,22:00,9.2,1.2,6,True,False
+SCH01065,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-25,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH01066,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-25,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH01067,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-25,Morning,06:00,14:00,8.4,0.4,10,False,False
+SCH01068,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-25,Evening,14:00,22:00,8.8,0.8,8,False,False
+SCH01069,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-25,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH01070,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-25,Evening,14:00,22:00,8.6,0.6,9,False,False
+SCH01071,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-25,Morning,06:00,14:00,8.0,0.0,10,True,False
+SCH01072,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-25,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH01073,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-25,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH01074,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-25,Morning,06:00,14:00,8.0,0.0,18,False,False
+SCH01075,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-25,Evening,14:00,22:00,8.0,0.0,11,True,False
+SCH01076,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-25,Evening,14:00,22:00,8.5,0.5,10,False,False
+SCH01077,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-25,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH01078,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-25,Evening,14:00,22:00,9.0,1.0,8,False,False
+SCH01079,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-25,Evening,14:00,22:00,9.4,1.4,11,False,False
+SCH01080,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-25,Morning,06:00,14:00,8.2,0.2,5,False,False
+SCH01081,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-25,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH01082,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-25,Night,22:00,06:00,8.2,0.2,11,False,True
+SCH01083,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-25,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01084,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-25,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01085,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-25,Morning,06:00,14:00,8.4,0.4,15,False,False
+SCH01086,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-25,Night,22:00,06:00,8.6,0.6,12,False,False
+SCH01087,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-25,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01088,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-25,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01089,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-25,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH01090,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-25,Night,22:00,06:00,9.7,1.7,10,False,False
+SCH01091,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-25,Night,22:00,06:00,8.0,0.0,3,False,False
+SCH01092,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-25,Morning,06:00,14:00,8.1,0.1,17,True,False
+SCH01093,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-25,Morning,06:00,14:00,8.1,0.1,14,False,False
+SCH01094,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-25,Night,22:00,06:00,8.0,0.0,9,True,False
+SCH01095,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-25,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01096,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-25,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01097,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-25,Morning,06:00,14:00,9.9,1.9,17,False,False
+SCH01098,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-25,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01099,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-25,Morning,06:00,14:00,8.4,0.4,8,True,False
+SCH01100,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-25,Night,22:00,06:00,8.0,0.0,17,False,False
+SCH01101,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-26,Night,22:00,06:00,8.5,0.5,4,False,False
+SCH01102,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-26,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01103,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-26,Evening,14:00,22:00,8.4,0.4,12,False,False
+SCH01104,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-26,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH01105,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-26,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH01106,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-26,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH01107,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-26,Evening,14:00,22:00,8.5,0.5,15,False,False
+SCH01108,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-26,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01109,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-26,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01110,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-26,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01111,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-26,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH01112,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-26,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01113,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-26,Morning,06:00,14:00,9.1,1.1,14,False,False
+SCH01114,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-26,Night,22:00,06:00,8.4,0.4,15,False,False
+SCH01115,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-26,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH01116,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-26,Night,22:00,06:00,9.3,1.3,14,True,False
+SCH01117,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-26,Night,22:00,06:00,9.5,1.5,13,False,False
+SCH01118,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-26,Morning,06:00,14:00,8.0,0.0,7,False,False
+SCH01119,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-26,Night,22:00,06:00,8.2,0.2,14,False,False
+SCH01120,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-26,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH01121,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-26,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01122,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-26,Evening,14:00,22:00,8.0,0.0,7,False,False
+SCH01123,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-26,Night,22:00,06:00,8.7,0.7,14,False,False
+SCH01124,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-26,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01125,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-26,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01126,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-26,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01127,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-26,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH01128,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-26,Evening,14:00,22:00,9.2,1.2,10,False,False
+SCH01129,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-26,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01130,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-26,Evening,14:00,22:00,8.0,0.0,5,True,False
+SCH01131,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-26,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01132,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-26,Night,22:00,06:00,8.5,0.5,15,False,False
+SCH01133,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-26,Morning,06:00,14:00,9.1,1.1,11,False,False
+SCH01134,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-26,Evening,14:00,22:00,8.0,0.0,13,True,False
+SCH01135,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-26,Evening,14:00,22:00,8.7,0.7,8,False,False
+SCH01136,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-26,Night,22:00,06:00,8.1,0.1,13,False,False
+SCH01137,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-26,Night,22:00,06:00,8.5,0.5,9,False,False
+SCH01138,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-26,Night,22:00,06:00,8.0,0.0,9,True,False
+SCH01139,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-26,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH01140,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-26,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH01141,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-26,Evening,14:00,22:00,8.2,0.2,14,False,False
+SCH01142,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-26,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH01143,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-26,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01144,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-26,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01145,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-26,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01146,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-26,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH01147,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-26,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH01148,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-26,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH01149,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-26,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH01150,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-26,Night,22:00,06:00,9.2,1.2,12,False,False
+SCH01151,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-27,Morning,06:00,14:00,8.3,0.3,8,False,False
+SCH01152,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-27,Evening,14:00,22:00,8.0,0.0,9,True,False
+SCH01153,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-27,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01154,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-27,Evening,14:00,22:00,8.7,0.7,20,False,False
+SCH01155,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-27,Morning,06:00,14:00,8.4,0.4,15,False,False
+SCH01156,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-27,Night,22:00,06:00,8.3,0.3,7,False,False
+SCH01157,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-27,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01158,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-27,Morning,06:00,14:00,8.6,0.6,14,False,False
+SCH01159,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-27,Evening,14:00,22:00,8.0,0.0,17,False,False
+SCH01160,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-27,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH01161,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-27,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH01162,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-27,Night,22:00,06:00,8.1,0.1,5,False,False
+SCH01163,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-27,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH01164,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-27,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH01165,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-27,Evening,14:00,22:00,9.6,1.6,6,False,False
+SCH01166,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-27,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01167,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-27,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01168,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-27,Evening,14:00,22:00,8.4,0.4,11,True,False
+SCH01169,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-27,Night,22:00,06:00,8.0,0.0,15,True,False
+SCH01170,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-27,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH01171,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-27,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01172,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-27,Morning,06:00,14:00,8.1,0.1,16,False,False
+SCH01173,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-27,Evening,14:00,22:00,8.5,0.5,9,False,False
+SCH01174,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-27,Night,22:00,06:00,8.5,0.5,14,False,False
+SCH01175,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-27,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH01176,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-27,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01177,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-27,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01178,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-27,Morning,06:00,14:00,8.0,0.0,13,False,True
+SCH01179,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-27,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01180,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-27,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH01181,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-27,Evening,14:00,22:00,8.0,0.0,9,True,False
+SCH01182,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-27,Morning,06:00,14:00,8.0,0.0,13,True,False
+SCH01183,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-27,Morning,06:00,14:00,9.2,1.2,11,False,False
+SCH01184,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-27,Evening,14:00,22:00,8.7,0.7,14,False,False
+SCH01185,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-27,Evening,14:00,22:00,8.4,0.4,10,False,False
+SCH01186,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-27,Evening,14:00,22:00,8.0,0.0,11,True,False
+SCH01187,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-27,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01188,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-27,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH01189,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-27,Night,22:00,06:00,9.2,1.2,13,False,False
+SCH01190,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-27,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH01191,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-27,Morning,06:00,14:00,8.7,0.7,13,False,False
+SCH01192,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-27,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01193,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-27,Evening,14:00,22:00,8.8,0.8,10,False,False
+SCH01194,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-27,Morning,06:00,14:00,8.0,0.0,9,False,False
+SCH01195,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-27,Night,22:00,06:00,8.0,0.0,16,False,False
+SCH01196,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-27,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01197,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-27,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH01198,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-27,Evening,14:00,22:00,8.3,0.3,11,False,True
+SCH01199,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-27,Night,22:00,06:00,8.5,0.5,15,False,False
+SCH01200,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-27,Night,22:00,06:00,8.9,0.9,9,False,False
+SCH01201,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-28,Morning,06:00,14:00,8.0,0.0,11,True,False
+SCH01202,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-28,Morning,06:00,14:00,9.2,1.2,11,False,True
+SCH01203,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-28,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01204,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-28,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH01205,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-28,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH01206,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-28,Morning,06:00,14:00,8.1,0.1,13,True,False
+SCH01207,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-28,Evening,14:00,22:00,8.2,0.2,16,False,False
+SCH01208,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-28,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01209,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-28,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01210,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-28,Evening,14:00,22:00,8.4,0.4,20,False,False
+SCH01211,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-28,Morning,06:00,14:00,8.5,0.5,12,False,False
+SCH01212,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-28,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01213,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-28,Evening,14:00,22:00,8.5,0.5,10,True,False
+SCH01214,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-28,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01215,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-28,Morning,06:00,14:00,8.2,0.2,16,True,False
+SCH01216,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-28,Evening,14:00,22:00,9.1,1.1,14,False,False
+SCH01217,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-28,Evening,14:00,22:00,8.3,0.3,12,False,False
+SCH01218,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-28,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01219,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-28,Night,22:00,06:00,8.1,0.1,12,False,False
+SCH01220,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-28,Morning,06:00,14:00,9.9,1.9,9,True,False
+SCH01221,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-28,Evening,14:00,22:00,8.0,0.0,7,False,False
+SCH01222,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-28,Evening,14:00,22:00,8.6,0.6,15,True,False
+SCH01223,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-28,Evening,14:00,22:00,8.5,0.5,8,False,False
+SCH01224,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-28,Evening,14:00,22:00,8.0,0.0,16,False,False
+SCH01225,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-28,Evening,14:00,22:00,8.0,0.0,19,False,False
+SCH01226,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-28,Night,22:00,06:00,8.9,0.9,14,False,False
+SCH01227,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-28,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01228,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-28,Evening,14:00,22:00,8.4,0.4,11,False,False
+SCH01229,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-28,Evening,14:00,22:00,8.5,0.5,14,False,False
+SCH01230,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-28,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH01231,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-28,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH01232,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-28,Evening,14:00,22:00,8.8,0.8,10,False,False
+SCH01233,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-28,Night,22:00,06:00,10.1,2.1,12,False,False
+SCH01234,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-28,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01235,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-28,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01236,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-28,Morning,06:00,14:00,8.9,0.9,11,False,False
+SCH01237,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-28,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01238,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-28,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01239,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-28,Morning,06:00,14:00,9.0,1.0,12,True,True
+SCH01240,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-28,Evening,14:00,22:00,8.0,0.0,7,False,False
+SCH01241,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-28,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH01242,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-28,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01243,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-28,Night,22:00,06:00,8.2,0.2,9,False,False
+SCH01244,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-28,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH01245,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-28,Morning,06:00,14:00,9.4,1.4,13,False,False
+SCH01246,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-28,Evening,14:00,22:00,8.0,0.0,16,True,False
+SCH01247,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-28,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01248,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-28,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01249,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-28,Night,22:00,06:00,8.1,0.1,12,False,False
+SCH01250,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-28,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01251,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-29,Evening,14:00,22:00,8.2,0.2,10,False,False
+SCH01252,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-29,Morning,06:00,14:00,8.7,0.7,13,True,True
+SCH01253,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-29,Evening,14:00,22:00,8.2,0.2,10,False,False
+SCH01254,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-29,Evening,14:00,22:00,8.9,0.9,14,False,False
+SCH01255,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-29,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01256,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-29,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH01257,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-29,Evening,14:00,22:00,8.6,0.6,11,True,False
+SCH01258,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-29,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01259,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-29,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01260,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-29,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01261,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-29,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH01262,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-29,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH01263,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-29,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01264,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-29,Morning,06:00,14:00,9.2,1.2,16,False,False
+SCH01265,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-29,Evening,14:00,22:00,8.1,0.1,9,False,False
+SCH01266,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-29,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01267,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-29,Morning,06:00,14:00,8.0,0.0,18,False,False
+SCH01268,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-29,Morning,06:00,14:00,8.4,0.4,13,False,False
+SCH01269,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-29,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH01270,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-29,Night,22:00,06:00,8.0,0.0,8,False,True
+SCH01271,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-29,Morning,06:00,14:00,8.4,0.4,3,False,False
+SCH01272,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-29,Morning,06:00,14:00,8.1,0.1,18,False,False
+SCH01273,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-29,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH01274,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-29,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01275,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-29,Night,22:00,06:00,8.6,0.6,14,False,False
+SCH01276,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-29,Evening,14:00,22:00,8.6,0.6,8,False,False
+SCH01277,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-29,Morning,06:00,14:00,9.5,1.5,16,True,False
+SCH01278,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-29,Night,22:00,06:00,8.0,0.0,20,False,False
+SCH01279,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-29,Morning,06:00,14:00,8.0,0.0,20,False,False
+SCH01280,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-29,Night,22:00,06:00,8.3,0.3,10,False,False
+SCH01281,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-29,Night,22:00,06:00,8.3,0.3,10,True,False
+SCH01282,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-29,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH01283,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-29,Evening,14:00,22:00,8.0,0.0,15,False,False
+SCH01284,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-29,Evening,14:00,22:00,8.4,0.4,12,False,False
+SCH01285,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-29,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01286,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-29,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01287,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-29,Night,22:00,06:00,8.8,0.8,12,False,False
+SCH01288,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-29,Evening,14:00,22:00,8.0,0.0,8,False,False
+SCH01289,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-29,Evening,14:00,22:00,8.0,0.0,6,False,False
+SCH01290,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-29,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01291,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-29,Morning,06:00,14:00,8.0,0.0,7,False,False
+SCH01292,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-29,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH01293,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-29,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH01294,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-29,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01295,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-29,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01296,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-29,Night,22:00,06:00,8.6,0.6,14,False,False
+SCH01297,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-29,Evening,14:00,22:00,8.5,0.5,13,False,False
+SCH01298,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-29,Morning,06:00,14:00,8.4,0.4,11,False,False
+SCH01299,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-29,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01300,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-29,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH01301,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-30,Morning,06:00,14:00,8.4,0.4,9,False,False
+SCH01302,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-30,Morning,06:00,14:00,8.9,0.9,15,True,False
+SCH01303,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-30,Morning,06:00,14:00,9.0,1.0,8,False,False
+SCH01304,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-30,Evening,14:00,22:00,8.5,0.5,11,False,False
+SCH01305,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-30,Morning,06:00,14:00,8.1,0.1,9,False,False
+SCH01306,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-30,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH01307,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-30,Evening,14:00,22:00,9.1,1.1,13,True,False
+SCH01308,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-30,Night,22:00,06:00,9.1,1.1,11,False,False
+SCH01309,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-30,Morning,06:00,14:00,8.7,0.7,11,True,False
+SCH01310,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-30,Morning,06:00,14:00,9.9,1.9,5,False,False
+SCH01311,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-30,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH01312,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-30,Night,22:00,06:00,8.2,0.2,6,False,False
+SCH01313,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-30,Night,22:00,06:00,8.4,0.4,7,False,False
+SCH01314,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-30,Morning,06:00,14:00,8.0,0.0,13,False,False
+SCH01315,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-30,Night,22:00,06:00,8.6,0.6,15,False,False
+SCH01316,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-30,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01317,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-30,Night,22:00,06:00,8.8,0.8,7,False,False
+SCH01318,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-30,Evening,14:00,22:00,8.0,0.0,11,True,False
+SCH01319,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-30,Night,22:00,06:00,9.7,1.7,16,False,False
+SCH01320,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-30,Evening,14:00,22:00,9.7,1.7,11,False,False
+SCH01321,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-30,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH01322,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-30,Morning,06:00,14:00,9.3,1.3,10,False,False
+SCH01323,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-30,Morning,06:00,14:00,8.6,0.6,9,False,False
+SCH01324,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-30,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01325,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-30,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH01326,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-30,Night,22:00,06:00,8.9,0.9,10,False,False
+SCH01327,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-30,Morning,06:00,14:00,8.5,0.5,16,False,False
+SCH01328,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-30,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01329,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-30,Morning,06:00,14:00,8.3,0.3,12,True,False
+SCH01330,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-30,Morning,06:00,14:00,8.6,0.6,9,True,False
+SCH01331,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-30,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH01332,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-30,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01333,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-30,Night,22:00,06:00,9.5,1.5,11,False,False
+SCH01334,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-30,Morning,06:00,14:00,8.0,0.0,12,False,True
+SCH01335,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-30,Evening,14:00,22:00,8.0,0.0,12,False,True
+SCH01336,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-30,Night,22:00,06:00,8.5,0.5,12,False,False
+SCH01337,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-30,Evening,14:00,22:00,8.0,0.0,15,True,False
+SCH01338,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-30,Night,22:00,06:00,8.7,0.7,16,False,False
+SCH01339,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-30,Night,22:00,06:00,9.8,1.8,9,False,False
+SCH01340,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-30,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01341,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-30,Morning,06:00,14:00,9.7,1.7,16,False,False
+SCH01342,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-30,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01343,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-30,Evening,14:00,22:00,8.6,0.6,11,False,True
+SCH01344,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-30,Evening,14:00,22:00,8.5,0.5,15,True,False
+SCH01345,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-30,Morning,06:00,14:00,9.2,1.2,12,False,False
+SCH01346,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-30,Evening,14:00,22:00,8.8,0.8,11,False,False
+SCH01347,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-30,Morning,06:00,14:00,8.3,0.3,11,False,False
+SCH01348,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-30,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH01349,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-30,Morning,06:00,14:00,9.1,1.1,10,False,False
+SCH01350,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-30,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH01351,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-05-31,Evening,14:00,22:00,8.8,0.8,18,False,False
+SCH01352,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-05-31,Night,22:00,06:00,8.0,0.0,4,False,False
+SCH01353,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-05-31,Morning,06:00,14:00,8.0,0.0,6,False,True
+SCH01354,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-05-31,Morning,06:00,14:00,8.0,0.0,2,True,False
+SCH01355,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-05-31,Night,22:00,06:00,8.0,0.0,8,False,False
+SCH01356,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-05-31,Evening,14:00,22:00,8.1,0.1,7,True,False
+SCH01357,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-05-31,Evening,14:00,22:00,9.2,1.2,10,False,False
+SCH01358,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-05-31,Evening,14:00,22:00,8.6,0.6,16,False,False
+SCH01359,DR009,Dr. Priya Joshi,General Medicine,General,2024-05-31,Morning,06:00,14:00,9.6,1.6,11,False,False
+SCH01360,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-05-31,Morning,06:00,14:00,8.0,0.0,7,False,False
+SCH01361,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-05-31,Night,22:00,06:00,9.8,1.8,11,False,False
+SCH01362,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-05-31,Morning,06:00,14:00,8.0,0.0,11,False,False
+SCH01363,DR013,Dr. Arjun Mehta,General Medicine,General,2024-05-31,Evening,14:00,22:00,8.8,0.8,7,False,False
+SCH01364,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-05-31,Evening,14:00,22:00,8.6,0.6,14,False,True
+SCH01365,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-05-31,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01366,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-05-31,Morning,06:00,14:00,8.1,0.1,8,True,False
+SCH01367,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-05-31,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH01368,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-05-31,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01369,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-05-31,Morning,06:00,14:00,8.4,0.4,10,False,False
+SCH01370,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-05-31,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01371,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-05-31,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01372,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-05-31,Night,22:00,06:00,8.1,0.1,12,False,False
+SCH01373,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-05-31,Evening,14:00,22:00,8.8,0.8,7,False,False
+SCH01374,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-05-31,Night,22:00,06:00,8.1,0.1,9,False,False
+SCH01375,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-05-31,Night,22:00,06:00,8.7,0.7,15,False,False
+SCH01376,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-05-31,Morning,06:00,14:00,8.0,0.0,12,True,False
+SCH01377,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-05-31,Evening,14:00,22:00,8.5,0.5,14,False,False
+SCH01378,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-05-31,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01379,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-05-31,Morning,06:00,14:00,8.1,0.1,5,False,False
+SCH01380,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-05-31,Morning,06:00,14:00,8.9,0.9,11,False,False
+SCH01381,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-05-31,Morning,06:00,14:00,9.1,1.1,13,True,False
+SCH01382,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-05-31,Morning,06:00,14:00,8.9,0.9,9,False,False
+SCH01383,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-05-31,Night,22:00,06:00,8.6,0.6,10,True,False
+SCH01384,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-05-31,Morning,06:00,14:00,8.2,0.2,7,False,False
+SCH01385,DR035,Dr. Rahul Kumar,General Medicine,General,2024-05-31,Morning,06:00,14:00,8.0,0.0,6,False,False
+SCH01386,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-05-31,Night,22:00,06:00,8.0,0.0,13,False,False
+SCH01387,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-05-31,Evening,14:00,22:00,8.7,0.7,8,False,False
+SCH01388,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-05-31,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01389,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-05-31,Evening,14:00,22:00,10.1,2.1,12,False,True
+SCH01390,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-05-31,Night,22:00,06:00,8.9,0.9,15,True,False
+SCH01391,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-05-31,Night,22:00,06:00,8.1,0.1,13,False,False
+SCH01392,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-05-31,Evening,14:00,22:00,8.0,0.0,4,False,False
+SCH01393,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-05-31,Night,22:00,06:00,8.0,0.0,10,True,False
+SCH01394,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-05-31,Morning,06:00,14:00,8.0,0.0,8,False,False
+SCH01395,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-05-31,Evening,14:00,22:00,8.7,0.7,11,False,False
+SCH01396,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-05-31,Morning,06:00,14:00,8.3,0.3,15,False,False
+SCH01397,DR047,Dr. Kavita Sharma,General Medicine,General,2024-05-31,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01398,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-05-31,Evening,14:00,22:00,8.0,0.0,6,False,False
+SCH01399,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-05-31,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH01400,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-05-31,Evening,14:00,22:00,8.3,0.3,8,False,False
+SCH01401,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-06-01,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01402,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-06-01,Night,22:00,06:00,8.0,0.0,15,False,False
+SCH01403,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-06-01,Morning,06:00,14:00,8.0,0.0,13,True,False
+SCH01404,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-06-01,Evening,14:00,22:00,8.7,0.7,10,False,True
+SCH01405,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-06-01,Morning,06:00,14:00,8.0,0.0,14,False,False
+SCH01406,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-06-01,Morning,06:00,14:00,8.2,0.2,11,False,False
+SCH01407,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-06-01,Night,22:00,06:00,8.5,0.5,11,False,False
+SCH01408,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-06-01,Night,22:00,06:00,9.5,1.5,12,False,False
+SCH01409,DR009,Dr. Priya Joshi,General Medicine,General,2024-06-01,Night,22:00,06:00,8.0,0.0,7,False,False
+SCH01410,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-06-01,Evening,14:00,22:00,8.5,0.5,9,False,False
+SCH01411,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-06-01,Night,22:00,06:00,8.3,0.3,7,False,False
+SCH01412,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-06-01,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01413,DR013,Dr. Arjun Mehta,General Medicine,General,2024-06-01,Morning,06:00,14:00,8.0,0.0,7,True,False
+SCH01414,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-06-01,Morning,06:00,14:00,8.0,0.0,15,False,False
+SCH01415,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-06-01,Evening,14:00,22:00,9.3,1.3,13,True,False
+SCH01416,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-06-01,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01417,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-06-01,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01418,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-06-01,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01419,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-06-01,Morning,06:00,14:00,8.0,0.0,14,False,True
+SCH01420,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-06-01,Night,22:00,06:00,8.0,0.0,12,True,False
+SCH01421,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-06-01,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01422,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-06-01,Morning,06:00,14:00,8.7,0.7,11,False,True
+SCH01423,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-06-01,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01424,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-06-01,Evening,14:00,22:00,10.4,2.4,6,False,False
+SCH01425,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-06-01,Night,22:00,06:00,8.6,0.6,17,False,False
+SCH01426,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-06-01,Morning,06:00,14:00,8.0,0.0,9,True,False
+SCH01427,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-06-01,Night,22:00,06:00,9.0,1.0,10,False,False
+SCH01428,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-06-01,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01429,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-06-01,Morning,06:00,14:00,8.9,0.9,10,False,False
+SCH01430,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-06-01,Morning,06:00,14:00,9.2,1.2,16,False,False
+SCH01431,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-06-01,Evening,14:00,22:00,8.0,0.0,14,False,False
+SCH01432,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-06-01,Morning,06:00,14:00,8.2,0.2,2,False,False
+SCH01433,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-06-01,Night,22:00,06:00,8.1,0.1,11,True,False
+SCH01434,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-06-01,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01435,DR035,Dr. Rahul Kumar,General Medicine,General,2024-06-01,Evening,14:00,22:00,8.5,0.5,13,False,False
+SCH01436,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-06-01,Morning,06:00,14:00,8.8,0.8,14,False,False
+SCH01437,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-06-01,Morning,06:00,14:00,8.0,0.0,13,True,False
+SCH01438,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-06-01,Morning,06:00,14:00,8.1,0.1,11,False,False
+SCH01439,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-06-01,Morning,06:00,14:00,8.8,0.8,12,False,False
+SCH01440,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-06-01,Morning,06:00,14:00,9.7,1.7,13,True,False
+SCH01441,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-06-01,Night,22:00,06:00,8.1,0.1,18,False,False
+SCH01442,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-06-01,Morning,06:00,14:00,9.0,1.0,0,False,False
+SCH01443,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-06-01,Morning,06:00,14:00,8.0,0.0,10,False,False
+SCH01444,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-06-01,Night,22:00,06:00,8.0,0.0,10,False,True
+SCH01445,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-06-01,Evening,14:00,22:00,8.0,0.0,13,False,False
+SCH01446,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-06-01,Morning,06:00,14:00,8.3,0.3,8,False,False
+SCH01447,DR047,Dr. Kavita Sharma,General Medicine,General,2024-06-01,Evening,14:00,22:00,8.5,0.5,13,False,False
+SCH01448,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-06-01,Night,22:00,06:00,8.0,0.0,9,False,False
+SCH01449,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-06-01,Morning,06:00,14:00,8.2,0.2,10,False,False
+SCH01450,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-06-01,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH01451,DR001,Dr. Anita Reddy,Obstetrics,Maternity,2024-06-02,Evening,14:00,22:00,8.0,0.0,11,False,False
+SCH01452,DR002,Dr. Vikram Kumar,Gynecology,Maternity,2024-06-02,Morning,06:00,14:00,8.8,0.8,7,False,False
+SCH01453,DR003,Dr. Sanjay Gupta,General Surgery,Surgical,2024-06-02,Morning,06:00,14:00,8.4,0.4,13,False,False
+SCH01454,DR004,Dr. Deepak Sharma,ICU/Critical Care,ICU,2024-06-02,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01455,DR005,Dr. Anita Verma,Gynecology,Maternity,2024-06-02,Night,22:00,06:00,9.7,1.7,10,False,False
+SCH01456,DR006,Dr. Suresh Pillai,Cardiology,Surgical,2024-06-02,Evening,14:00,22:00,8.6,0.6,11,False,False
+SCH01457,DR007,Dr. Rajesh Pillai,Emergency Medicine,Emergency,2024-06-02,Night,22:00,06:00,8.0,0.0,12,False,False
+SCH01458,DR008,Dr. Arjun Malhotra,Emergency Medicine,Emergency,2024-06-02,Evening,14:00,22:00,8.0,0.0,5,False,False
+SCH01459,DR009,Dr. Priya Joshi,General Medicine,General,2024-06-02,Evening,14:00,22:00,8.6,0.6,15,False,False
+SCH01460,DR010,Dr. Pooja Singh,Orthopedics,Surgical,2024-06-02,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01461,DR011,Dr. Rahul Pillai,Cardiology,Surgical,2024-06-02,Morning,06:00,14:00,8.0,0.0,16,True,False
+SCH01462,DR012,Dr. Neha Pillai,Pediatrics,Pediatric,2024-06-02,Evening,14:00,22:00,8.0,0.0,12,False,False
+SCH01463,DR013,Dr. Arjun Mehta,General Medicine,General,2024-06-02,Morning,06:00,14:00,9.1,1.1,11,False,False
+SCH01464,DR014,Dr. Krishnan Verma,Obstetrics,Maternity,2024-06-02,Evening,14:00,22:00,8.0,0.0,9,False,False
+SCH01465,DR015,Dr. Lakshmi Pillai,ICU/Critical Care,ICU,2024-06-02,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01466,DR016,Dr. Pooja Iyer,Internal Medicine,General,2024-06-02,Morning,06:00,14:00,8.5,0.5,22,False,False
+SCH01467,DR017,Dr. Anita Reddy,Emergency Medicine,Emergency,2024-06-02,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01468,DR018,Dr. Deepak Kumar,Obstetrics,Maternity,2024-06-02,Night,22:00,06:00,8.0,0.0,6,False,False
+SCH01469,DR019,Dr. Meera Iyer,Emergency Medicine,Emergency,2024-06-02,Evening,14:00,22:00,9.1,1.1,12,True,False
+SCH01470,DR020,Dr. Sanjay Agarwal,ICU/Critical Care,ICU,2024-06-02,Night,22:00,06:00,8.2,0.2,15,False,True
+SCH01471,DR021,Dr. Vikram Verma,Emergency Medicine,Emergency,2024-06-02,Morning,06:00,14:00,8.2,0.2,11,False,False
+SCH01472,DR022,Dr. Suresh Kumar,Pediatrics,Pediatric,2024-06-02,Evening,14:00,22:00,9.4,1.4,10,False,False
+SCH01473,DR023,Dr. Priya Patel,Obstetrics,Maternity,2024-06-02,Night,22:00,06:00,8.0,0.0,11,False,False
+SCH01474,DR024,Dr. Sanjay Gupta,Cardiology,Surgical,2024-06-02,Night,22:00,06:00,8.0,0.0,5,False,False
+SCH01475,DR025,Dr. Neha Singh,Orthopedics,Surgical,2024-06-02,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01476,DR026,Dr. Kavita Joshi,General Surgery,Surgical,2024-06-02,Night,22:00,06:00,8.6,0.6,9,False,False
+SCH01477,DR027,Dr. Kavita Gupta,Pediatrics,Pediatric,2024-06-02,Evening,14:00,22:00,8.8,0.8,7,False,False
+SCH01478,DR028,Dr. Neha Patel,ICU/Critical Care,ICU,2024-06-02,Night,22:00,06:00,8.0,0.0,10,False,False
+SCH01479,DR029,Dr. Sanjay Patel,ICU/Critical Care,ICU,2024-06-02,Evening,14:00,22:00,8.3,0.3,8,False,False
+SCH01480,DR030,Dr. Anita Shah,Emergency Medicine,Emergency,2024-06-02,Night,22:00,06:00,8.6,0.6,19,True,False
+SCH01481,DR031,Dr. Deepak Iyer,Emergency Medicine,Emergency,2024-06-02,Night,22:00,06:00,8.9,0.9,9,False,False
+SCH01482,DR032,Dr. Suresh Singh,Gynecology,Maternity,2024-06-02,Evening,14:00,22:00,9.1,1.1,11,True,False
+SCH01483,DR033,Dr. Suresh Shah,Obstetrics,Maternity,2024-06-02,Night,22:00,06:00,8.0,0.0,14,False,False
+SCH01484,DR034,Dr. Deepak Gupta,Emergency Medicine,Emergency,2024-06-02,Morning,06:00,14:00,8.8,0.8,8,False,False
+SCH01485,DR035,Dr. Rahul Kumar,General Medicine,General,2024-06-02,Morning,06:00,14:00,8.0,0.0,12,False,False
+SCH01486,DR036,Dr. Amit Malhotra,Pediatrics,Pediatric,2024-06-02,Evening,14:00,22:00,8.0,0.0,10,True,False
+SCH01487,DR037,Dr. Arjun Agarwal,Gynecology,Maternity,2024-06-02,Night,22:00,06:00,9.8,1.8,11,False,False
+SCH01488,DR038,Dr. Vikram Pillai,Obstetrics,Maternity,2024-06-02,Night,22:00,06:00,9.8,1.8,14,False,False
+SCH01489,DR039,Dr. Pooja Agarwal,ICU/Critical Care,ICU,2024-06-02,Evening,14:00,22:00,8.8,0.8,14,False,False
+SCH01490,DR040,Dr. Amit Pillai,ICU/Critical Care,ICU,2024-06-02,Morning,06:00,14:00,8.3,0.3,17,True,False
+SCH01491,DR041,Dr. Vikram Sharma,Cardiology,Surgical,2024-06-02,Night,22:00,06:00,8.8,0.8,11,False,False
+SCH01492,DR042,Dr. Pooja Pillai,Obstetrics,Maternity,2024-06-02,Morning,06:00,14:00,8.0,0.0,16,False,False
+SCH01493,DR043,Dr. Meera Pillai,Emergency Medicine,Emergency,2024-06-02,Night,22:00,06:00,8.1,0.1,9,False,False
+SCH01494,DR044,Dr. Meera Mehta,ICU/Critical Care,ICU,2024-06-02,Night,22:00,06:00,8.6,0.6,14,False,False
+SCH01495,DR045,Dr. Rajesh Mehta,Obstetrics,Maternity,2024-06-02,Night,22:00,06:00,9.5,1.5,7,False,False
+SCH01496,DR046,Dr. Deepak Verma,Obstetrics,Maternity,2024-06-02,Evening,14:00,22:00,8.0,0.0,10,False,False
+SCH01497,DR047,Dr. Kavita Sharma,General Medicine,General,2024-06-02,Morning,06:00,14:00,10.2,2.2,9,False,False
+SCH01498,DR048,Dr. Sanjay Singh,Pediatrics,Pediatric,2024-06-02,Evening,14:00,22:00,8.0,0.0,12,False,True
+SCH01499,DR049,Dr. Mohan Singh,Emergency Medicine,Emergency,2024-06-02,Morning,06:00,14:00,8.6,0.6,14,True,False
+SCH01500,DR050,Dr. Arjun Shah,Gynecology,Maternity,2024-06-02,Evening,14:00,22:00,8.7,0.7,11,False,False
