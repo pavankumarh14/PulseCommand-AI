@@ -1,0 +1,18 @@
+# Notification API Configuration
+notification_service:
+  base_url: "https://api.notifications.example.com"
+  api_key: "${NOTIFICATION_API_KEY}"
+  
+  # Rate limiting
+  max_requests_per_day: 5000
+  max_requests_per_minute: 100
+  
+  # Retry configuration
+  retry_attempts: 1
+  retry_backoff_ms: 1000
+  
+  # Endpoints
+  endpoints:
+    send_email: "/v1/email/send"
+    send_sms: "/v1/sms/send"
+    send_push: "/v1/push/send"
