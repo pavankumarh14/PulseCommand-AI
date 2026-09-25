@@ -8,7 +8,7 @@ notification_service:
   max_requests_per_minute: 100
   
   # Retry configuration
-  retry_attempts: 1
+  retry_attempts: 10
   retry_backoff_ms: 1000
   
   # Endpoints
